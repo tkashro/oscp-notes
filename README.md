@@ -6,6 +6,11 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **02/12/2021**: Begin practicing on HTB machines (already had existing account with some machines owned)
 * **10/12/2021**: Purchased HTB VIP subscription
 * **26/12/2021**: +15 machines rooted (few included referencing [ippsec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) walkthroughs)
+  - TJnull OSCP-like boxes complete:
+    + [x] Lame
+    + [x] FriendZone
+    + [x] Blue
+    + [x] La Casa De Papel 
 * **27/12/2021**: Begin compiling personal notes/cheat-sheets for reference
 
 # Cheat Sheets
