@@ -7,3 +7,23 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **10/12/2021**: Purchased HTB VIP subscription
 * **26/12/2021**: +15 machines rooted (few included referencing [ippsec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) walkthroughs)
 * **27/12/2021**: Begin compiling personal notes/cheat-sheets for reference
+
+# Cheat Sheets
+
+[Kali Linux](https://oscp.kash.ro/cheat-sheets/Kali_Linux)
+
+[Information Gathering](https://oscp.kash.ro/cheat-sheets/Information_Gathering)
+
+[Buffer Overflows](https://oscp.kash.ro/cheat-sheets/Buffer_Overflows)
+
+[File Tranfers](https://oscp.kash.ro/cheat-sheets/File_Transfers)
+
+[Networking](https://oscp.kash.ro/cheat-sheets/Networking)
+
+[Shells](https://oscp.kash.ro/cheat-sheets/Shells)
+
+[Metasploit](https://oscp.kash.ro/cheat-sheets/Metasploit)
+
+[Linux Privilege Escalation](https://oscp.kash.ro/cheat-sheets/Linux_PrivEsc)
+
+[Windows Privilege Escalation](https://oscp.kash.ro/cheat-sheets/Windows_PrivEsc)
