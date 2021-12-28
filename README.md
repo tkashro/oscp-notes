@@ -29,6 +29,8 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 
 [Metasploit](https://oscp.kash.ro/cheat-sheets/Metasploit)
 
+[Local File Inclusion](https://oscp.kash.ro/cheat-sheets/Local_File_Inclusion)
+
 [Linux Privilege Escalation](https://oscp.kash.ro/cheat-sheets/Linux_PrivEsc)
 
 [Windows Privilege Escalation](https://oscp.kash.ro/cheat-sheets/Windows_PrivEsc)
