@@ -372,6 +372,9 @@ _Subnet Reference Table_
 
 *   Scan with Active connect in order to weed out any spoofed ports designed to troll you  
     `nmap -p1-65535 -A -T5 -sT $ip`
+   
+*   Scan for vulnerabilities (good for end of life machines)  
+    `nmap --script vuln $ip`
 
 *   ## [](#enumeration)Enumeration
 
