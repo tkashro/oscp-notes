@@ -24,6 +24,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
     + [x] Nibbles
     + [x] Bashed
     + [x] Shocker
+* **31/12/2021**: Officially register for OSCP
 
 # Cheat Sheets
 
