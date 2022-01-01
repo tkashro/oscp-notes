@@ -66,13 +66,13 @@
 
         `wget https://highon.coffee/downloads/linux-local-enum.sh`
 
-    *   Linux Privilege Exploit Suggester (Old has not been updated in years)
-
-    [https://github.com/PenturaLabs/Linux_Exploit_Suggester](http://web.archive.org/web/20171113221652/https://github.com/PenturaLabs/Linux_Exploit_Suggester)
-
     *   Linux post exploitation enumeration and exploit checking tools
 
     [https://github.com/reider-roque/linpostexp](http://web.archive.org/web/20171113221652/https://github.com/reider-roque/linpostexp)
+    
+    *   Linux Privilege Escalation Awesome Script
+
+    [LinPeas](https://github.com/carlospolop/PEASS-ng)
 
 Handy Kernel Exploits
 
