@@ -3,6 +3,10 @@
 *   Netcat Shell Listener
 
     `nc -nlvp 4444`
+    
+    In order to make a Windows shell more stable wrap the command with `rlwrap`
+    
+    `rlwrap nc -nlvp 4444`
 
 *   Spawning a TTY Shell - Break out of Jail or limited shell You should almost always upgrade your shell after taking control of an apache or www user.
 
