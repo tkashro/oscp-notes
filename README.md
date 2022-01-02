@@ -30,6 +30,8 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 
 [Kali Linux](https://oscp.kash.ro/cheat-sheets/Kali_Linux)
 
+[Windows](https://oscp.kash.ro/cheat-sheets/Windows)
+
 [Information Gathering](https://oscp.kash.ro/cheat-sheets/Information_Gathering)
 
 [Port/Service Enumeration](https://oscp.kash.ro/cheat-sheets/Enumeration)
