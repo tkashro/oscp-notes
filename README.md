@@ -32,7 +32,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 
 [Information Gathering](https://oscp.kash.ro/cheat-sheets/Information_Gathering)
 
-[Port Enumeration](https://oscp.kash.ro/cheat-sheets/Port_Enumeration)
+[Port/Service Enumeration](https://oscp.kash.ro/cheat-sheets/Enumeration)
 
 [Buffer Overflows](https://oscp.kash.ro/cheat-sheets/Buffer_Overflows)
 
