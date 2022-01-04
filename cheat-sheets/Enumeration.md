@@ -555,8 +555,9 @@ enum4linux -a -M -l -d $ip 2>&1 | tee "enum4linux.txt"
 Additional scans
 
 ```text
-ldapsearch -h $ip -p 389 -x -s base
-ldapsearch -h $ip -p 389 -x -D '<DOMAIN>\<USER>' -w '<PASSWORD>' -b "DC=<1_SUBDOMAIN>,DC=<TDL>"
+ldapsearch -x -h $ip -p 389 -s base
+ldapsearch -x -h $ip -p 389 -b 'DC=<1_SUBDOMAIN>,DC=<TDL>' -s sub
+ldapsearch -x -h $ip -p 389 -D '<DOMAIN>\<USER>' -w '<PASSWORD>' -b 'DC=<1_SUBDOMAIN>,DC=<TDL>'
 ```
 
 ### Java RMI (1100/tcp)
