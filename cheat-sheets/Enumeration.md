@@ -34,6 +34,7 @@ Table of Contents
     * [VNC (5900/tcp)](#vnc-5900tcp)
     * [AJP (8009/tcp)](#ajp-8009tcp)
   * [Active Directory](#active-directory)
+  * [Windows](#windows)
 
 # Enumeration
 
@@ -799,6 +800,15 @@ nmap -Pn -sV -p 5900 --script="banner,(vnc* or realvnc* or ssl*) and not (brute 
 nmap -Pn -sV -p 8009 -n --script ajp-auth,ajp-headers,ajp-methods,ajp-request -oN tcp_8009_ajp_nmap.txt $ip
 ```
 
+## Windows
+
+WinRM is enabled by default on all Windows Server operating systems (since Windows Server 2012 and above), but disabled on all client operating systems like Windows 10, Windows 8 and Windows 7.
+
+```text
+# Attempt to login using WinRM with valid credentials
+evil-winrm -i $ip -u <USERNAME> -p <PASSWORD>
+```
+
 ## Active Directory
 
 **Enumerate users**
@@ -843,3 +853,5 @@ PS> Get-NetSession -ComputerName $hostname
 # Enumerate SPNs
 PS> Get-NetUser -SPN | select serviceprincipalname
 ```
+
+**Bloodhound**
