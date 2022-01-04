@@ -33,8 +33,8 @@ Table of Contents
     * [PostgreSQL (5432/tcp)](#postgresql-5432tcp)
     * [VNC (5900/tcp)](#vnc-5900tcp)
     * [AJP (8009/tcp)](#ajp-8009tcp)
-  * [Active Directory](#active-directory)
   * [Windows](#windows)
+  * [Active Directory](#active-directory)
 
 # Enumeration
 
