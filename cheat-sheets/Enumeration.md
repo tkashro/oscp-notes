@@ -419,6 +419,15 @@ nbtscan -rvh $ip 2>&1 | tee "nbtscan.txt"
 nmap -Pn -sV -p 445 "--script=banner,(nbstat or smb* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args=unsafe=1 -oN tcp_445_smb_nmap.txt $ip
 ```
 
+**crackmapexec**
+```text
+# Enumerate
+crackmapexec smb $ip
+
+# Attempt blank credentials
+crackmapexec smb $ip --shares -u '' -p ''
+```
+
 **smbmap**
 
 ```text
