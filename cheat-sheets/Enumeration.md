@@ -855,3 +855,5 @@ PS> Get-NetUser -SPN | select serviceprincipalname
 ```
 
 **Bloodhound**
+
+[BloodHound](https://github.com/BloodHoundAD/BloodHound) uses graph theory to reveal the hidden and often unintended relationships within an Active Directory environment. Attackers can use BloodHound to easily identify highly complex attack paths that would otherwise be impossible to quickly identify. Use [Sharphound](https://github.com/BloodHoundAD/SharpHound3) to collect information from the domain controller.
