@@ -5,14 +5,14 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **01/12/2021**: Journey begins
 * **02/12/2021**: Begin practicing on HTB machines (already had existing account with some machines owned)
 * **10/12/2021**: Purchased HTB VIP subscription
-* **26/12/2021**: +15 machines rooted (few included referencing [ippsec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) walkthroughs)
-  - OSCP-like boxes complete:
+* **26/12/2021**: +15 HTB machines rooted (few included referencing [ippsec](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) walkthroughs)
+  - OSCP-like boxes complete (TJnull):
     + [x] Lame
     + [x] FriendZone
     + [x] Blue
     + [x] La Casa De Papel 
 * **27/12/2021**: Begin compiling personal notes/cheat-sheets for reference
-* **30/12/2021**: +10 machines rooted
+* **30/12/2021**: +10 HTB machines rooted
   - OSCP-like boxes complete:
     + [x] Devel
     + [x] Legacy
@@ -25,6 +25,9 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
     + [x] Bashed
     + [x] Shocker
 * **31/12/2021**: Officially register for OSCP
+* **06/01/2021**: +5 HTB machines rooted, moving focus to more Windows boxes since OSCP exam structure is changing with more emphasis on Active Directory
+  - OSCP-like boxes complete:
+    + [x] Optimum
 
 # Cheat Sheets
 
