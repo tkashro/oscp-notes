@@ -28,7 +28,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **06/01/2021**: +5 HTB machines rooted, moving focus to more Windows boxes since OSCP exam structure is changing with more emphasis on Active Directory
   - OSCP-like boxes complete:
     + [x] Optimum
-* **09/01/2021**: Begin OSCP course material and exercises
+* **09/01/2021**: Enrolled in PWK, begin OSCP course material and exercises
 * **29/01/2021**: OSCP course material exercises complete (40 days of lab access left), moving on to PWK labs.
 
 # Cheat Sheets
