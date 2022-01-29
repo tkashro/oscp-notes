@@ -45,7 +45,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 
 [File Transfers](https://oscp.kash.ro/cheat-sheets/File_Transfers)
 
-[Networking](https://oscp.kash.ro/cheat-sheets/Networking)
+[Networking, Pivoting and Tunneling](https://oscp.kash.ro/cheat-sheets/Networking)
 
 [Shells](https://oscp.kash.ro/cheat-sheets/Shells)
 
