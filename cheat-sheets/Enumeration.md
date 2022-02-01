@@ -797,6 +797,10 @@ SHOW config_file;
 # Version detection + NSE scripts
 nmap -Pn -sV -p 5900 --script="banner,(vnc* or realvnc* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args="unsafe=1" -oN "tcp_5900_vnc_nmap.txt" $ip
 ```
+Connect
+```text
+vncviewer [-passwd passwd.txt] <IP>::<PORT>
+```
 
 ### AJP (8009/tcp)
 
