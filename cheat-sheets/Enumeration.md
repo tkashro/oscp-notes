@@ -495,6 +495,13 @@ smbclient \\\\$ip\\ipc$ -U john
 smbclient //$ip/ipc$ -U john
 ```
 
+**Scan for NetBIOS information**
+
+```text
+# scan entire C-class network
+nbtscan <IP>/24
+```
+
 **Nmap scans for SMB vulnerabilities (NB: can cause DoS)**
 
 ```text
