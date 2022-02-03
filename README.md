@@ -30,6 +30,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
     + [x] Optimum
 * **09/01/2021**: Enrolled in PWK, begin OSCP course material and exercises
 * **29/01/2021**: OSCP course material exercises complete (40 days of lab access left), moving on to PWK labs.
+* **03/02/2021**: 8 PWK lab machines rooted including a complete Active Directory set.
 
 # Cheat Sheets
 
