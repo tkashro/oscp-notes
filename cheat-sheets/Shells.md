@@ -58,6 +58,10 @@
         CTRL+Z         #send current shell to background
         stty raw -echo #tell your terminal to pass keyboard shortcuts etc.
         fg             #bring shell back to the foreground
+        
+*   Another way to upgrade to a fully interactive shell
+
+    `/usr/bin/script -qc /bin/bash /dev/null`
 
 *   Pen test monkey PHP reverse shell  
     [http://pentestmonkey.net/tools/web-shells/php-reverse-shel](http://web.archive.org/web/20171113221652/http://pentestmonkey.net/tools/web-shells/php-reverse-shell)
