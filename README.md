@@ -33,6 +33,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **03/02/2021**: 8 PWK lab machines rooted including a complete Active Directory set.
 * **05/02/2021**: Finished requirements for 10 bonus points on exam.
 * **13/02/2021**: +10 PWK machines rooted.
+* **20/02/2021**: +10 PWK machines rooted (30 total). Moving to Proving Grounds Practice.
 
 # Cheat Sheets
 
