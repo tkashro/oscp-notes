@@ -33,7 +33,21 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **03/02/2021**: 8 PWK lab machines rooted including a complete Active Directory set.
 * **05/02/2021**: Finished requirements for 10 bonus points on exam.
 * **13/02/2021**: +10 PWK machines rooted.
+* **17/02/2021**: Scheduled first exam attempt in three weeks.
 * **20/02/2021**: +10 PWK machines rooted (30 total). Moving to Proving Grounds Practice.
+* **26/02/2021**: +10 Proving Grounds Practice machines rooted
+  - OSCP-like machines complete (TJnull):
+    + [x] ClamAV
+    + [x] Wombo
+    + [x] Payday
+    + [x] Fail
+    + [x] Nibbles
+    + [x] Banzai
+    + [x] Hunit
+    + [x] Dibble
+    + [x] Hetemit
+    + [x] WebCal
+
 
 # Cheat Sheets
 
