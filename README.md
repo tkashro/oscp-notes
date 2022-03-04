@@ -47,6 +47,18 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
     + [x] Dibble
     + [x] Hetemit
     + [x] WebCal
+* **04/03/2021**: +10 Proving Grounds Practice machines rooted
+  - OSCP-like machines complete (TJnull):
+    + [x] Zino
+    + [x] Nickel
+    + [x] Slort
+    + [x] Authby
+    + [x] Jacko
+    + [x] MeatHead
+    + [x] UT99
+    + [x] MedJed
+    + [x] Algeron
+    + [x] Billyboss
 
 
 # Cheat Sheets
