@@ -585,7 +585,8 @@ Additional scans
 ```text
 ldapsearch -x -h $ip -p 389 -s base
 ldapsearch -x -h $ip -p 389 -b 'DC=<1_SUBDOMAIN>,DC=<TDL>' -s sub
-ldapsearch -x -h $ip -p 389 -D '<DOMAIN>\<USER>' -w '<PASSWORD>' -b 'DC=<1_SUBDOMAIN>,DC=<TDL>'
+ldapsearch -x -h $ip -p 389 -D '<DOMAIN>\<USER>' -w '<PASSWORD>' -b 'DC=<1_SUBDOMAIN>,DC=<TDL>' # dump everything
+ldapsearch -x -h $ip -p 389 -D '<USERNAME>' -w '<PASSWORD>' -b 'DC=<1_SUBDOMAIN>,DC=<TDL>' "(ms-MCS-AdmPwd=*)" ms-MCS-AdmPwd # dump LAPS passwords
 ```
 
 ### Java RMI (1100/tcp)
