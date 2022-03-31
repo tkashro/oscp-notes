@@ -75,6 +75,28 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **10/03/2021**: Failed first exam attempt.
   - Broke into two stand-alone machines but couldn't even got a foothold onto Active Directory domain... tf
 * **12/03/2021**: Scheduled second exam attempt.
+* **22/03/2021**: Watch Tib3rius Windows Privilege Escalation Course
+* **26/03/2021**: +10 Proving Grounds Practice machines rooted (Windows/AD focused)
+  - Machines completed:
+    + [x] Heist
+    + [x] Butch
+    + [x] Hutch
+    + [x] DVR4
+    + [x] Kevin
+    + [x] Compromised
+    + [x] Shenzi
+    + [x] Fish
+    + [x] Vault
+    + [x] Monster
+* **01/04/2021**: +6 Proving Grounds Practice machines rooted
+  - Machines completed:
+    + [x] Metallus
+    + [x] Walla
+    + [x] Exfiltrated
+    + [x] Peppo
+    + [x] Algernon
+    + [x] Craft
+  - Complete TryHackMe Attacktive Directory Room
 
 
 # Cheat Sheets
