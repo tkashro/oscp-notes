@@ -33,7 +33,7 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
 * **03/02/2022**: 8 PWK lab machines rooted including a complete Active Directory set.
 * **05/02/2022**: Finished requirements for 10 bonus points on exam.
 * **13/02/2022**: +10 PWK machines rooted.
-* **17/02/2022**: Scheduled first exam attempt in three weeks.
+* **17/02/2022**: Scheduled first exam attempt.
 * **20/02/2022**: +10 PWK machines rooted (30 total). Moving to Proving Grounds Practice.
 * **26/02/2022**: +10 Proving Grounds Practice machines rooted
   - OSCP-like machines complete (TJnull):
@@ -72,9 +72,6 @@ To prepare myself for my future career in InfoSec, one of my main goals for the 
     + [x] XposedAPI
     + [x] Quackerjack
     + [x] Sona
-* **10/03/2022**: Failed first exam attempt.
-  - Broke into two stand-alone machines but couldn't even got a foothold onto Active Directory domain... tf
-* **12/03/2022**: Scheduled second exam attempt.
 * **22/03/2022**: Watch Tib3rius Windows Privilege Escalation Course
 * **26/03/2022**: +10 Proving Grounds Practice machines rooted (Windows/AD focused)
   - Machines completed:
